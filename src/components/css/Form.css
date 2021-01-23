@@ -1,0 +1,22 @@
+form {
+    display: inline-block;
+    text-align: right;
+    width: 48%;
+    margin: 30px 0 2% 0;
+}
+
+form input {
+    width: 50%;
+    padding: 8px 15px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 0 10px 0 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    opacity: .5;
+}
